@@ -4,7 +4,7 @@
 #pragma warning disable 0649
 #pragma warning disable 0169
 
-namespace ContosoCrafts.WebSite.Components
+namespace Crafts.WebSite.Components
 {
     #line hidden
     using System;
@@ -13,21 +13,21 @@ namespace ContosoCrafts.WebSite.Components
     using System.Threading.Tasks;
     using Microsoft.AspNetCore.Components;
 #nullable restore
-#line 1 "E:\ContosoCrafts-master\src\Components\ProductList.razor"
-using ContosoCrafts.WebSite.Models;
+#line 1 "E:\CraftsWebsite\src\Components\ProductList.razor"
+using Crafts.WebSite.Models;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 2 "E:\ContosoCrafts-master\src\Components\ProductList.razor"
-using ContosoCrafts.WebSite.Services;
+#line 2 "E:\CraftsWebsite\src\Components\ProductList.razor"
+using Crafts.WebSite.Services;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 3 "E:\ContosoCrafts-master\src\Components\ProductList.razor"
+#line 3 "E:\CraftsWebsite\src\Components\ProductList.razor"
 using Microsoft.AspNetCore.Components.Web;
 
 #line default
@@ -41,7 +41,7 @@ using Microsoft.AspNetCore.Components.Web;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 78 "E:\ContosoCrafts-master\src\Components\ProductList.razor"
+#line 78 "E:\CraftsWebsite\src\Components\ProductList.razor"
  
     Product? selectedProduct;
     string? selectedProductId;

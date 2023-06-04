@@ -2,10 +2,10 @@
 using System.IO;
 using System.Linq;
 using System.Text.Json;
-using ContosoCrafts.WebSite.Models;
+using Crafts.WebSite.Models;
 using Microsoft.AspNetCore.Hosting;
 
-namespace ContosoCrafts.WebSite.Services
+namespace Crafts.WebSite.Services
 {
     public class JsonFileProductService
     {
@@ -45,7 +45,7 @@ namespace ContosoCrafts.WebSite.Services
 
             using var outputStream = File.OpenWrite(JsonFileName);
 
-            JsonSerializer.Serialize<IEnumerable<Product>>(
+            JsonSerializer.Serialize(
                 new Utf8JsonWriter(outputStream, new JsonWriterOptions
                 {
                     SkipValidation = true,

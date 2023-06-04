@@ -1,15 +1,15 @@
 ﻿using System.Collections.Generic;
-using ContosoCrafts.WebSite.Models;
-using ContosoCrafts.WebSite.Services;
+using Crafts.WebSite.Models;
+using Crafts.WebSite.Services;
 using Microsoft.AspNetCore.Mvc;
 
-namespace ContosoCrafts.WebSite.Controllers
+namespace Crafts.WebSite.Controllers
 {
     [ApiController]
     [Route("[controller]")]
     public class ProductsController : ControllerBase
     {
-        public ProductsController(JsonFileProductService productService) => 
+        public ProductsController(JsonFileProductService productService) =>
             ProductService = productService;
 
         public JsonFileProductService ProductService { get; }

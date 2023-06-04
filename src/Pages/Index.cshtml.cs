@@ -1,10 +1,10 @@
 ﻿using System.Collections.Generic;
-using ContosoCrafts.WebSite.Models;
-using ContosoCrafts.WebSite.Services;
+using Crafts.WebSite.Models;
+using Crafts.WebSite.Services;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.Extensions.Logging;
 
-namespace ContosoCrafts.WebSite.Pages
+namespace Crafts.WebSite.Pages
 {
     public class IndexModel : PageModel
     {

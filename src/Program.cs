@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Hosting;
 
-namespace ContosoCrafts.WebSite
+namespace Crafts.WebSite
 {
     public class Program
     {
